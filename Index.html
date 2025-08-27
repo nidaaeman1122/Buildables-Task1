@@ -7,92 +7,94 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Contact Our Company</h1>
-    <p>We would love to hear from you!</p>
-    <ul class="nav">
-      <li><a href="home.html">Home</a></li>
-      <li><a href="About.html">About</a></li>
-      <li><a href="Services.html">Services</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <h2>Send us a Message</h2>
-    <form>
-      <fieldset>
-        <legend>Personal Information</legend>
-        
-        <div class="form-group">
-          <label for="fullname">Full Name:</label>
-          <input type="text" id="fullname" name="fullname" required>
-        </div>
 
-        <div class="form-group">
-          <label for="email">Email Address:</label>
-          <input type="email" id="email" name="email" required>
-        </div>
+  <h1>Contact Our Company</h1>
+  <p>We’d love to hear from you!</p>
 
-        <div class="form-group">
-          <label for="phone">Phone Number:</label>
-          <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
-        </div>
-      </fieldset>
+  <ul class="nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
 
-      <fieldset>
-        <legend>Your Message</legend>
+  <h2>Send us a Message</h2>
 
-        <div class="form-group">
-          <label for="subject">Subject:</label>
-          <select id="subject" name="subject">
-            <option>General Inquiry</option>
-            <option>Support</option>
-            <option>Feedback</option>
-          </select>
-        </div>
+  <form>
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name">
 
-        <div class="form-group">
-          <label for="message">Message:</label>
-          <textarea id="message" rows="5" cols="40"></textarea>
-        </div>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email">
 
-        <div class="form-check">
-          <input type="checkbox" id="urgent" name="urgent">
-          <label for="urgent">Mark as urgent</label>
-        </div>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" placeholder="123-456-7890">
+    </fieldset>
 
-        <p>Preferred contact method:</p>
-        <div class="form-check">
-          <input type="radio" id="emailContact" name="contact" checked>
-          <label for="emailContact">Email</label>
+    <fieldset>
+      <legend>Your Message</legend>
+      <label for="subject">Subject:</label>
+      <select id="subject">
+        <option>General Inquiry</option>
+        <option>Support</option>
+        <option>Feedback</option>
+      </select>
 
-          <input type="radio" id="phoneContact" name="contact">
-          <label for="phoneContact">Phone</label>
-        </div>
-      </fieldset>
-      <button type="submit">Send Message</button>
-      <button type="reset" class="reset-btn">Clear Form</button>
-    </form>
+      <label for="message">Message:</label>
+      <textarea id="message"></textarea>
 
-     <h2>Our Location</h2>
-    <p>
-      123 Business Road <br>
-      Business City, BC 12345 <br>
-      United States
-    </p>
-    <h3>Office Hours</h3>
-    <table>
-      <tr><th>Day</th><th>Hours</th></tr>
-      <tr><td>Monday - Friday</td><td>9:00 AM - 5:00 PM</td></tr>
-      <tr><td>Saturday</td><td>10:00 AM - 2:00 PM</td></tr>
-      <tr><td>Sunday</td><td>Closed</td></tr>
-    </table>
+      <div class="checkbox">
+        <input type="checkbox" id="urgent">
+        <label for="urgent">Mark as urgent</label>
+      </div>
 
-    <footer>
-      <p>&copy; 2023 Our Company. All rights reserved.</p>
-      <a href="#">Privacy Policy</a> | 
-      <a href="#">Terms of Service</a>
-    </footer>
+      <p>Preferred contact method:</p>
+      <div class="radio-group">
+        <input type="radio" name="contact" id="emailContact" checked>
+        <label for="emailContact">Email</label>
+        <input type="radio" name="contact" id="phoneContact">
+        <label for="phoneContact">Phone</label>
+      </div>
+    </fieldset>
+
+    <button type="submit">Send Message</button>
+    <button type="reset">Clear Form</button>
+  </form>
+
+  <h2>Our Location</h2>
+  <p>
+    <b>123 Business Road</b><br>
+    Business City, BC 12345<br>
+    United States
+  </p>
+
+  <h2>Office Hours</h2>
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>Hours</th>
+    </tr>
+    <tr>
+      <td>Monday - Friday</td>
+      <td>9:00 AM - 5:00 PM</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>10:00 AM - 2:00 PM</td>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>Closed</td>
+    </tr>
+  </table>
+
+  <div class="footer">
+    © 2023 Our Company. All rights reserved.  
+    <a href="#">Privacy Policy</a> | 
+    <a href="#">Terms of Service</a>
   </div>
+
 </body>
 </html>
-
-
