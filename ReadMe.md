@@ -57,7 +57,7 @@ README.md         # Documentation
 Contributions are welcome!
 
 * Fork the repository
-* Create a branch (`feature/my-feature`)
+* Create a branch 
 * Commit changes
 * Open a Pull Request
   
@@ -72,6 +72,7 @@ For queries or collaboration:
 ## 📜 License
 
 This project is licensed under the **MIT License** – free to use and modify.
+
 
 
 
