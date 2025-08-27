@@ -8,7 +8,12 @@ It includes a navigation bar, a styled contact form, and additional informationa
 ## 📂 Project Structure
 
 Main File: CompanyContact.html
+
 About,contact,index,Services are all other files
+
 Styles.css # global stylesheet
 Readme.md #documentation
 OutPut: Contact Our Company.html
+
+https://buildablestask1.netlify.app/     #link netlify app
+
