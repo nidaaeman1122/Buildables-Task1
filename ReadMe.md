@@ -33,11 +33,10 @@ This project is a **demo website** that includes:
 ## 📂 Project Structure
 
 
-responsive-website/
-│── index.html        # Main HTML file
-│── styles.css        # CSS styling file
-│── /assets           # (Optional) images/icons
-│── README.md         # Documentation
+responsive-website
+index.html        # Main HTML file
+styles.css        # CSS styling file
+README.md         # Documentation
 
 ## ⚙️ Installation & Usage
 
@@ -70,4 +69,5 @@ For queries or collaboration:
 ## 📜 License
 
 This project is licensed under the **MIT License** – free to use and modify.
+
 
