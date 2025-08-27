@@ -44,10 +44,11 @@ README.md         # Documentation
 
    bash
    git clone https://github.com/nidaaeman1122/Buildables-Task1.git
+   
    cd responsive-website
 
 
-2. **Open in Browser**
+3. **Open in Browser**
    Just open the `index.html` file in your browser.
 
 
@@ -71,6 +72,7 @@ For queries or collaboration:
 ## 📜 License
 
 This project is licensed under the **MIT License** – free to use and modify.
+
 
 
 
